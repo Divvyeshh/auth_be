@@ -7,7 +7,7 @@
     display: flex;
     /* width: 1728px; */
     font-family: switzer;
-    font-size: 18.286px;
+    font-size: 14.286px;
     font-style: normal;
     font-weight: 600;
     line-height: 27.429px; 
@@ -85,20 +85,16 @@ a:hover::before {
     background-color: #FFECD1;
     font-family: switzer;
     font-style: normal;
-    font-size: 18.286px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 27.429px;
     border-radius: 69px;
-    height: 52px;
-    width: 204px;
+    height: 44px;
+    width: 169.14px;
     padding: 12px 24px;
 }
 
-.get-started-button:hover{
-
-}
-
 .arrow-button{
-    width: 27.429px;
-    height: 27.429px;
+    width: 20px;
+    height: 20px;
 }

@@ -1,0 +1,54 @@
+@font-face{
+    font-family: 'outline';
+    src: url('./assets/Outfit-Regular.otf')
+}
+
+@font-face{
+    font-family: 'switzer-normal';
+    src: url('./assets/Switzer-Thin.otf')
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    background-color: #E03616;
+    width: 100%;
+    height: 100vh;
+}
+
+.text-container{
+    padding-left: 253.71px;
+    padding-top: 100px;
+    width: 626px;
+    height: 209px;;
+}
+
+.text-bold{
+    color: #FFECD1;
+    font-family: 'outline';
+    font-weight: 400;
+    font-size: 73.143px;
+    font-style: normal;
+    line-height: 100%; /* 73.143px */
+    letter-spacing: -1.463px;
+}
+
+.text-regular{
+    width: 474.286px;
+    height: 76px;
+    color: #FFECD1;
+    font-family: 'switzer-normal';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 37.714px */
+    letter-spacing: -0.629px;
+    padding-top: 34px;
+}
+
+.svg-container {
+    flex: 1; /* Allow SVG container to take remaining space */
+    display: flex;
+    padding-top: 172.56px;
+    padding-left: 229.15px; 
+  }
